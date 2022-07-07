@@ -2,7 +2,7 @@
     "id": "org.freedesktop.LinuxAudio.Plugins.AVLDrums",
     "branch": "21.08",
     "runtime": "org.freedesktop.LinuxAudio.BaseExtension",
-    "runtime-version": "21.08",
+    "runtime-version": "stable",
     "sdk": "org.freedesktop.Sdk//21.08",
     "build-extension": true,
     "appstream-compose": false,
@@ -23,19 +23,8 @@
             "build-options": {
                 "env": {
                     "PREFIX": "/app/extensions/Plugins/AVLDrums",
-                    "LV2DIR": "/app/extensions/Plugins/AVLDrums/lv2"
-                },
-                "arch": {
-                    "arm": {
-                        "env": {
-                            "OPTIMIZATIONS": "-ffast-math -fomit-frame-pointer -O3 -fno-finite-math-only -DNDEBUG"
-                        }
-                    },
-                    "aarch64": {
-                        "env": {
-                            "OPTIMIZATIONS": "-ffast-math -fomit-frame-pointer -O3 -fno-finite-math-only -DNDEBUG"
-                        }
-                    }
+                    "LV2DIR": "/app/extensions/Plugins/AVLDrums/lv2",
+                    "OPTIMIZATIONS": "-ffast-math -fomit-frame-pointer -O3 -fno-finite-math-only -DNDEBUG"
                 }
             },
             "build-commands": [
@@ -52,7 +41,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/x42/avldrums.lv2.git",
-                    "tag": "v0.4.2"
+                    "tag": "v0.5.0"
                 },
                 {
                     "type": "file",
