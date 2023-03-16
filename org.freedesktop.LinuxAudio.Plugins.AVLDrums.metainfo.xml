@@ -2,14 +2,40 @@
 <component type="addon">
   <id>org.freedesktop.LinuxAudio.Plugins.AVLDrums</id>
   <extends>org.freedesktop.LinuxAudio.BaseExtension</extends>
-  <name>AVL Drumkits</name>
+  <name>AVLDrums.lv2</name>
   <summary>AVL Drumkits LV2 plugin</summary>
+  <description>
+    <p>
+      avldrums.lv2 is a drum sample player plugin dedicated to Glen
+      MacArthur's AVL Drumkits. This self-contained plugin provides a
+      convenient way to rapidly sequence and mix midi-drums.
+    </p>
+    <p>
+      The AVLdrums comes as four separate drumkits: Black Pearl, Red
+      Zeppelin, the Blonde Bop kit played with regular sticks and
+      Blonde Bop Hot Rods played with rute sticks. There are 5
+      velocity layers for each of the 28 kits pieces or drum-zones for
+      both kits.
+    </p>
+    <p>Include the following kits:</p>
+    <ul>
+      <li>Red Zeppelin</li>
+      <li>Black Pearl</li>
+      <li>Blonde Bop</li>
+      <li>Blonde Bop Hot Rod</li>
+    </ul>
+  </description>
   <url type="homepage">http://x42-plugins.com/x42/x42-avldrums</url>
   <project_license>GPL-2.0</project_license>
   <metadata_license>CC0-1.0</metadata_license>
   <update_contact>hub_AT_figuiere.net</update_contact>
   <releases>
-    <release date="2023-03-15" version="0.6.0" />
+    <release date="2023-03-15" version="0.6.0">
+      <description>
+        <p>Added Blonde Bop drumkits.</p>
+      </description>
+      <url>https://github.com/x42/avldrums.lv2/releases/tag/v0.6.0</url>
+    </release>
     <release date="2022-11-19" version="0.5.2" />
     <release date="2022-08-10" version="0.5.1" />
     <release date="2022-06-04" version="0.5.0" />
