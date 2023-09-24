@@ -30,6 +30,9 @@
   <metadata_license>CC0-1.0</metadata_license>
   <update_contact>hub_AT_figuiere.net</update_contact>
   <releases>
+    <release date="2023-09-17" version="0.7.2">
+      <p>Darken Buskman's GUI background</p>
+    </release>
     <release date="2023-05-07" version="0.6.1" />
     <release date="2023-03-15" version="0.6.0">
       <description>
