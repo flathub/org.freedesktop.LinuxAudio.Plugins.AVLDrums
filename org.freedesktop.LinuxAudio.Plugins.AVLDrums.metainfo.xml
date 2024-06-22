@@ -25,13 +25,16 @@
       <li>Blonde Bop Hot Rod</li>
     </ul>
   </description>
-  <url type="homepage">http://x42-plugins.com/x42/x42-avldrums</url>
+  <url type="homepage">https://x42-plugins.com/x42/x42-avldrums</url>
   <project_license>GPL-2.0</project_license>
   <metadata_license>CC0-1.0</metadata_license>
   <update_contact>hub_AT_figuiere.net</update_contact>
   <releases>
+    <release date="2024-06-10" version="0.7.3" />
     <release date="2023-09-17" version="0.7.2">
-      <p>Darken Buskman's GUI background</p>
+      <description>
+        <p>Darken Buskman's GUI background</p>
+      </description>
     </release>
     <release date="2023-05-07" version="0.6.1" />
     <release date="2023-03-15" version="0.6.0">
