@@ -31,15 +31,14 @@
                 "make -j${FLATPAK_BUILDER_N_JOBS} install"
             ],
             "post-install": [
-                "install -Dm644 org.freedesktop.LinuxAudio.Plugins.AVLDrums.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo ",
-                "install -Dm644 COPYING -t $FLATPAK_DEST/share/licenses/avldrums"
+                "install -Dm644 org.freedesktop.LinuxAudio.Plugins.AVLDrums.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo"
             ],
             "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/x42/avldrums.lv2.git",
-                    "tag": "v0.7.3",
-                    "commit": "27747bc92584c1dda7a1e00c181f96478e94f65d"
+                    "tag": "v0.7.4",
+                    "commit": "84f9dd4095ee056e1016003d364e0bc56a332438"
                 },
                 {
                     "type": "file",
