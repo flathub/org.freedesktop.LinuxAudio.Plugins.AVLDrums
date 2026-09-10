@@ -37,8 +37,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/x42/avldrums.lv2.git",
-                    "tag": "v0.7.5",
-                    "commit": "6d52327d001d44a18bd9d67728a93afb0f5a49b1"
+                    "tag": "v0.7.6",
+                    "commit": "9389f16f139410d9a55f9006976bd54cbd8b7806"
                 },
                 {
                     "type": "file",
